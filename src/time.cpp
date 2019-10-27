@@ -30,9 +30,9 @@
 Time::Time()
 {
 	TimeStamp = time(0);
-}
+}
 
-Time::Time(std::string timeExp)
+Time::Time(std::string timeExp)
 {
 	TimeString = timeExp;
 }
